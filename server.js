@@ -2,6 +2,10 @@ const express = require('express');
 
 const app = express();
 
+app.get('/', (req, res) => {
+  res.send("Hello")
+});
+
 app.get('/api/customers', (req, res) => {
   const customers = [
     {id: 1, firstName: 'John', lastName: 'Doe'},
@@ -12,6 +16,6 @@ app.get('/api/customers', (req, res) => {
   res.json(customers);
 });
 
-const port = 5000;
+const port = 8080;
 
 app.listen(port, () => `Server running on port ${port}`);
