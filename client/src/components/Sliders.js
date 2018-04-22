@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
 
-import Banner from '../images/AADK 2018 1280x680.png';
+import Banner1 from '../images/AADK 2018 1280x680.png';
+import Banner2 from '../images/banner web Ngopi yuk.jpg';
+import Banner3 from '../images/WEB.jpg';
 
 export default class Sliders extends Component{
     constructor(props){
@@ -13,33 +15,25 @@ export default class Sliders extends Component{
                 infinite: true,
                 speed: 500,
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                arrows: false,
+                autoplay: true,
             }
         }
     }
     render(){
+        // Mockup data banner
+        // TODO: retrieve data from server
         return(
             <Slider {...this.state.settings}>
                 <div>
-                    <img src={Banner} width="100%" alt="Banner 1"/>
+                    <img src={Banner1} width="100%" alt="Banner 1"/>
                 </div>
                 <div>
-                    <h3>2</h3>
+                    <img src={Banner2} width="100%" alt="Banner 1"/>
                 </div>
                 <div>
-                    <h3>3</h3>
-                </div>
-                <div>
-                    <h3>4</h3>
-                </div>
-                <div>
-                    <h3>5</h3>
-                </div>
-                <div>
-                    <h3>6</h3>
-                </div>
-                <div>
-                    <h3>7</h3>
+                    <img src={Banner3} width="100%" alt="Banner 1"/>
                 </div>
             </Slider>
         )
