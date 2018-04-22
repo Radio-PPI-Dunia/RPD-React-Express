@@ -7,7 +7,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Team from './pages/Team';
 
-// Import Routes
+// Import Routes and Define them after Switch Component
 const history = createBrowserHistory();
 
 const App = () => {
