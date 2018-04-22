@@ -7,7 +7,7 @@ export default class Navigation extends Component{
             <div>
                 <NavLink exact={true} to="/">Home</NavLink>
                 <NavLink to="/about">About</NavLink>
-                <NavLink to="/team">Team</NavLink>
+                <NavLink to="/team">SS & SK</NavLink>
                 <NavLink to="/schedules">Schedules</NavLink>
             </div>
         )

@@ -1,0 +1,23 @@
+body{
+    padding: 20px 0;
+}
+
+.body-content{
+    padding: 5rem 0;
+}
+.Header{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+div > a {
+    margin: 0 7px;
+    color: black;
+    font-weight: bold;
+}
+
+div > a:hover{
+    border-bottom: black solid 1px;
+}
