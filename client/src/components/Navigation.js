@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 
-export default class Footer extends Component{
+export default class Navigation extends Component{
     render(){
         return(
             <div>
-                <hr/>
-                Copyright © Radio PPI Dunia 2018
+                NavLink here!
             </div>
         )
     }
