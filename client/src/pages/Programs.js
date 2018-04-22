@@ -8,7 +8,8 @@ export default class Programs extends Component {
         return(
             <div>
                 <Header/>
-                <p>Programs Page</p>
+                <h2>Program Reguler & Special</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cumque cupiditate dolorem doloremque illum nobis perferendis placeat quos saepe sunt? Aperiam aspernatur earum, illo labore nam similique totam unde! Sequi.</p>
                 <Footer/>
             </div>
         )

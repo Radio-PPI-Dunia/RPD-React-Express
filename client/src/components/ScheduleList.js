@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 
 export default class ScheduleList extends Component{
+    componentDidMount(){
+        // TODO: Get dynamic data here!!
+    }
+
+    componentWillMount(){
+        // TODO: Destroy data here!!
+    }
+
     getDatas(){
         // THIS IS ONLY MOCK UP DATA!! Use http consume from server using third party Axios or Fetch
         return [

@@ -1,7 +1,3 @@
-body{
-    padding: 20px 0;
-}
-
 .body-content{
     padding: 5rem 0;
 }
@@ -13,13 +9,13 @@ body{
 }
 
 div > a {
-    margin: 0 7px;
+    margin: 0 20px;
     color: black;
     font-weight: bold;
 }
 
-div > a:hover{
-    border-bottom: black solid 1px;
+div > a:last-child{
+    margin-right: 0;
 }
 
 .active-link {

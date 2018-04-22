@@ -8,7 +8,8 @@ export default class Team extends Component {
         return(
             <div>
                 <Header/>
-                <p>Team Page</p>
+                <h2>Sobat Siar & Sobat Kru</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur earum exercitationem, incidunt modi non obcaecati pariatur soluta! Adipisci aliquid culpa fugiat nesciunt, quaerat quas repudiandae similique? Adipisci obcaecati quo tempora.</p>
                 <Footer/>
             </div>
         )

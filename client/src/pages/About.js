@@ -8,7 +8,8 @@ export default class About extends Component {
         return(
             <div>
                 <Header/>
-                <p>About Page</p>
+                <h2>About Radio PPI Dunia</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut eligendi esse maiores minus praesentium rem similique? Consectetur cumque, ea id itaque neque, nulla quam quia quo tempora, veniam voluptate.</p>
                 <Footer/>
             </div>
         )

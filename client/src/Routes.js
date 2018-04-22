@@ -14,7 +14,7 @@ import NoMatch from './pages/NoMatch';
 // Import Routes and Define them after Switch Component
 const history = createBrowserHistory();
 
-const App = () => {
+const Routes = () => {
   return(
       <div className="container">
           <Router history={history}>
@@ -32,4 +32,4 @@ const App = () => {
   )
 };
 
-export default App;
+export default Routes;
