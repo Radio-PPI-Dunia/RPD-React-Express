@@ -1,28 +1,14 @@
 import React, {Component} from "react";
-import logo from "./logo.png";
+import { HashRoute, Router, Route } from 'react-router-dom';
 import "./App.css";
 
-class App extends Component {
-    render() {
-        return (
-            <div className="App">
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo"/>
-                </header>
+// import Pages
 
-                <div className="container">
-                    <div className="row">
-                        <div class="col s6">
-                            <p>Test</p>
-                        </div>
-                        <div class="col s6">
-                            <p>Test</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        );
-    }
-}
+// Import Routes
+const App = () => {
+  return(
+      <div className="container">Routes</div>
+  )
+};
 
 export default App;
