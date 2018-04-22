@@ -5,7 +5,10 @@ export default class Navigation extends Component{
     render(){
         return(
             <div>
-                NavLink here!
+                <NavLink exact={true} to="/">Home</NavLink>
+                <NavLink to="/about">About</NavLink>
+                <NavLink to="/team">Team</NavLink>
+                <NavLink to="/schedules">Schedules</NavLink>
             </div>
         )
     }

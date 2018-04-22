@@ -15,11 +15,9 @@ export default class Home extends Component {
 
     render(){
         return(
-            <div className="container">
+            <div>
                 <Header/>
-                <div className="container">
-                    Content home page
-                </div>
+                <p>Body content</p>
                 <Footer/>
             </div>
         )
